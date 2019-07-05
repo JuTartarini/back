@@ -8,9 +8,9 @@ module.exports = (sequelize, DataTypes) => {
     Users.hasMany(models.Orders, { foreignKey: 'uid' });
   };
 
-  // User.create({firstName: 'test1', lastName: 'test1', email: 'test1@test.com'});
-  // User.create({firstName: 'test2', lastName: 'test2', email: 'test2@test.com'});
-  // User.create({firstName: 'test3', lastName: 'test3', email: 'test3@test.com'});
+  // Users.create({email: 'test1@test.com'});
+  // Users.create({email: 'test2@test.com'});
+  // Users.create({email: 'test3@test.com'});
 
   return Users;
 };

@@ -10,10 +10,11 @@ module.exports = (sequelize, DataTypes) => {
     
   };
   
-  // Orders.bulkCreate(
+  // Orders.create(
   //   {
+  //     uid: 1,
   //     status: 'Cozinha',
-  //     uid: 1
+     
   //   }
   //   )
 

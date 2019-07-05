@@ -1,7 +1,7 @@
 'use strict';
 module.exports = (sequelize, DataTypes) => {
   const OrderProducts = sequelize.define('OrderProducts', {
-    orderID: DataTypes.INTEGER,
+    orderId: DataTypes.INTEGER,
     productId: DataTypes.INTEGER
   }, {});
   OrderProducts.associate = function(models) {
